@@ -1,5 +1,26 @@
 # Workspace
 
+## Artifacts
+
+### `artifacts/blitz-blank` — Blitz Blank Glas- & Gebäudereinigung Website
+
+Ultra-premium German cleaning company website with cinematic scroll-driven hero animation.
+
+**Tech:** React + Vite, Tailwind CSS, GSAP + ScrollTrigger, Framer Motion
+
+**Key features:**
+- Cinematic GSAP scroll-driven hero with cleaning wipe reveal + pressure washer gun animation
+- 10 full sections: Hero, Services, Trust, Before/After slider, Process, Gallery, Local area, Testimonials, Contact, Footer
+- Real business info: Blitz Blank, An d. Harle 9, 26409 Wittmund, +49 176 20970960
+- Premium dark charcoal theme with electric cyan accents (hsl(185 100% 45%))
+- Outfit font, glassmorphism effects, shine sweeps, hover animations
+- Mobile sticky CTA bar (phone + WhatsApp)
+- Contact form with react-hook-form + zod validation
+- All content 100% German
+- Real client photos from attached_assets
+
+---
+
 ## Overview
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.

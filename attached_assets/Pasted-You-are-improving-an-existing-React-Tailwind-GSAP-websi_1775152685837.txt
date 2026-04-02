@@ -1,0 +1,158 @@
+You are improving an existing React + Tailwind + GSAP website for a German cleaning company:
+
+Blitz Blank Glas- & Gebäudereinigung
+
+IMPORTANT:
+Do NOT rebuild the entire website from scratch.
+Do NOT change the design style completely.
+Keep the current premium dark design, but upgrade it to a more cinematic, smooth, and impressive experience.
+
+MAIN GOAL:
+Fix all design issues (desktop + mobile), improve layout quality, and add a high-end scroll-driven hero animation (cinematic cleaning effect) WITHOUT breaking performance.
+
+----------------------------------------
+1. FIX CURRENT DESIGN ISSUES
+----------------------------------------
+
+DESKTOP:
+- Improve spacing between sections (more breathing room)
+- Align content better (especially cards and grids)
+- Improve visual hierarchy (titles, subtitles, content blocks)
+- Make cards feel more premium (subtle shadows, hover glow, better padding)
+- Improve CTA buttons (more contrast, better hover animation)
+
+MOBILE:
+- Fix hero text overlapping and clipping issues
+- Ensure headings scale properly (no overflow)
+- Improve padding on all sections (more spacing)
+- Fix layout stacking so everything feels clean and readable
+- Make cards full-width with proper spacing
+- Improve readability (font size, line height)
+
+STICKY CTA (mobile bottom bar):
+- Reduce height slightly
+- Add safe bottom spacing
+- Improve button layout (balanced spacing between “Jetzt anrufen” and “WhatsApp”)
+- Add subtle blur background (backdrop-blur) for premium feel
+
+----------------------------------------
+2. HERO SECTION – MAJOR UPGRADE (VERY IMPORTANT)
+----------------------------------------
+
+Transform the hero into a cinematic scroll-driven animation.
+
+CURRENT PROBLEM:
+Hero is static and looks like a normal website.
+
+NEW BEHAVIOR:
+Create a GSAP ScrollTrigger animation with pinning.
+
+CONCEPT:
+- Start with a “dirty glass” overlay on the hero
+- Add a cleaning tool (pressure washer / cleaning spray visual element)
+- As the user scrolls:
+  1. The hero is pinned
+  2. The cleaning tool moves slightly (cinematic movement)
+  3. A “cleaning effect” starts (like wiping or water cleaning)
+  4. The dirt disappears gradually
+  5. The clean version of the background is revealed
+  6. Smoothly transition into the next section
+
+IMPLEMENTATION (IMPORTANT):
+- Use GSAP + ScrollTrigger
+- Use scrub: true
+- Use pin: true
+- Use timeline animation
+- Do NOT use heavy particles or complex physics
+
+CLEANING EFFECT TECHNIQUE:
+- Use CSS mask / clip-path / overlay wipe effect
+- Use a “before/after” layered image technique
+- Animate a wipe line or radial reveal
+- Add subtle shine/light sweep after cleaning
+
+PERFORMANCE:
+- Keep it smooth (60fps)
+- No heavy canvas simulations
+- No large videos
+
+MOBILE VERSION:
+- Create a simplified version of the animation
+- No pinning for too long
+- Faster transition
+- Lighter effects
+
+----------------------------------------
+3. ADD PREMIUM MICRO-ANIMATIONS
+----------------------------------------
+
+- Add subtle fade-up animations for sections (GSAP or Framer Motion)
+- Add stagger animations for cards
+- Add hover effects:
+  - glow effect on cards
+  - slight scale (1.02)
+- Add shine sweep effect on CTA buttons
+- Add smooth scroll behavior
+
+----------------------------------------
+4. IMPROVE “BEFORE / AFTER” SECTION
+----------------------------------------
+
+- Make slider smoother and more responsive
+- Improve handle UI (more premium design)
+- Add subtle animation when dragging
+- Add label animations (VORHER / NACHHER)
+
+----------------------------------------
+5. IMPROVE SERVICES SECTION
+----------------------------------------
+
+- Make cards more premium:
+  - better padding
+  - subtle gradient background
+  - glow on hover
+- Improve icon visibility
+- Add small motion on hover
+
+----------------------------------------
+6. IMPROVE TESTIMONIALS
+----------------------------------------
+
+- Add slight card animation on hover
+- Improve spacing
+- Make rating badge more premium
+
+----------------------------------------
+7. PERFORMANCE OPTIMIZATION
+----------------------------------------
+
+- Lazy load images below the fold
+- Use optimized images (webp if possible)
+- Reduce unnecessary re-renders
+- Limit animation complexity
+- Respect prefers-reduced-motion
+
+----------------------------------------
+8. KEEP DESIGN CONSISTENT
+----------------------------------------
+
+- Keep current color palette (dark + cyan)
+- Keep brand identity
+- Do not change typography drastically
+- Do not break layout structure
+
+----------------------------------------
+FINAL RESULT:
+The website should feel:
+- premium
+- cinematic
+- modern
+- smooth
+- impressive on first scroll
+
+The hero animation should create a strong WOW effect while staying performant.
+
+Do NOT overcomplicate.
+Do NOT add unnecessary heavy libraries.
+
+Focus on quality, smoothness, and impact.
